@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+.main {
+    background-image: url(../images/banner.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.filter {
+    width: 100%;
+    height: 800px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.header {
+    width: 10%;
+    margin-left: 23%;
+    
+}
+
+.header h1 {
+    color: white;
+    text-transform: capitalize;
+    font-family: arial;
+    font-size: 20px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
+    
+    
+}
+
+.header img {
+    height: 30px;
+    width: 30px;
+    margin-top: 25px;
+
+}
+
+.nav {
+    float: right;
+    width: 40%;
+    text-transform: capitalize;
+    position: sticky;
+    top: 0;
+
+    
+    
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 20px 10px;
+    transition-duration: 0.5s;
+    float: left;
+}
+
+.float{
+    display:none;
+    
+    
+}
+
+
+
+.hover1:hover .float{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+
+.nav ul li.home {
+    color: orange;
+}
+
+.nav ul li:hover {
+    color: orange;
+}
+
+.content {
+    margin-left: 23%;
+    margin-top: 5%;
+}
+
+.content h2 {
+    color: white;
+    font-size: 30px;
+    font-family: 'arial black';
+}
+
+.content h1 {
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    text-transform: capitalize;
+    font-size: 100px;
+    line-height: 90px;
+    margin: 0;
+    font-family: Arial;
+}
+
+.content p {
+    margin-top: 50px;
+    color: white;
+    width: 400px;
+}
+
+.buttons {
+    margin-top: 4%;
+    margin-left: 23%;
+    cursor: pointer;
+}
+
+.menu {
+    float: left;
+    border-color: orange;
+    border-style: solid;
+    color: orange;
+    width: 110px;
+    height: 25px;
+    text-align: center;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.table {
+    float: left;
+    background-color: orange;
+    border-style: solid;
+    border-color: orange;
+    width: 110px;
+    height: 25px;
+    text-align: center;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-left: 1%;
+}
+
+.table:hover {
+    background-color: transparent;
+    border-style: solid;
+    border-color: orange;
+    color: white;
+}
+
+.menu:hover {
+    background-color: orange;
+    color: white;
+}
+
+
+.list-burger{
+ margin-top: 10%;
+ line-height: 30px;
+ display: inline-block;
+ 
+}
+
+
+
+/*********** fotter***********/
+.end{
+    background-color: darkgray;
+    width: 100%;
+    height : 300px;
+    color:whitesmoke;
+}
+
+
+.end h1{
+    text-align: center;
+    align-self: start;
+    padding: 40px;
+}
+
+
+.end h2{
+    text-align: center;
+    padding: 5px;
+}
+
+.end h2:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.end div {
+    text-align: center;
+    align-items: end;
+    
+    padding: 20px;
+}
